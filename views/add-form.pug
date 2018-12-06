@@ -1,0 +1,8 @@
+extends index.pug
+
+block content
+ h1 Lägg till i lista
+ form(action="/addsubmit")
+   input(type="text", name="key")
+   input(type="text", name="value")
+   input(type="submit")

@@ -1,0 +1,6 @@
+extends index.pug
+
+block content
+ form(action="/postsubmit", method="post")
+   input(type="text", name="key")
+   input(type="submit")

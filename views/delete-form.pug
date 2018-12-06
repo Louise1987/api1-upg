@@ -1,0 +1,7 @@
+extends index.pug
+
+block content
+ h1 Ta bort ur lista
+ form(action="/deletesubmit")
+   input(type="text", name="key")
+   input(type="submit")

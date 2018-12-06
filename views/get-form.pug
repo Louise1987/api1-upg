@@ -1,0 +1,8 @@
+extends index.pug
+
+block content
+
+  h1 Skriv in din julklapp och få ett rim!
+  form(action="/getsubmit")
+    input(type="text", name="key")
+    input(type="submit")

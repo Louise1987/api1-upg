@@ -1,0 +1,15 @@
+body{
+	margin:50px;
+	background-color: rgb(184, 0, 0);
+}
+
+h1{
+	margin-top:100px;
+	text-align:center;
+	color:rgb(117, 158, 74);
+}
+
+form{
+	text-align:center;
+}
+
